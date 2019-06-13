@@ -22,24 +22,29 @@
       </div>
     <script>
       $(".box1").on("click", function(){
-        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-1'>1</div>");
+        // $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-1'>1</div>"); --pra funcionar, precisa descomentar a .box1-1 no css
+        $( "#boxgrande" ).css( "background-color", "#E91E63").text("1");
         }
       );
 
       $(".box2").on("click", function(){
-        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-2'>2</div>");
+        // $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-2'>2</div>"); --pra funcionar, precisa descomentar a .box1-2 no css
+        $( "#boxgrande" ).css( "background-color", "#009688").text("2");
         }
       );
 
       $(".box3").click(function(){
-        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-3'>3</div>");
+        // $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-3'>3</div>"); --pra funcionar, precisa descomentar a .box1-3 no css
+        $( "#boxgrande" ).css( "background-color", "#3F51B5").text("3");
         }
       );
 
       $("#boxgrande").click(function(){
-        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box4'>x</div>");
+        // $("#boxgrande").replaceWith("<div id='boxgrande' class='col box4'>0</div>"); --não ta funcionando
+        $( "#boxgrande" ).css( "background-color", "#494949").text("0");
         }
       );
     </script>
 </body>
 </html>
+<!-- $("#botaogrande").class("col box1-1").html("1") -->
