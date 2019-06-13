@@ -13,21 +13,33 @@
     <div class="container box-mae">
         <div class="row">
           <div class="col box1">1</div>
-          <div class="col box2">
-            2
-          </div>
-          <div class="col box3">
-            3
-          </div> 
+          <div class="col box2">2</div>
+          <div class="col box3">3</div> 
         </div>
         <div class="row">
-            <div class="col box4">
-                3
-            </div>
+            <div id="boxgrande" class="col box4">0</div>
         </div>
       </div>
     <script>
-        $(".box1").addClass("oi");
+      $(".box1").on("click", function(){
+        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-1'>1</div>");
+        }
+      );
+
+      $(".box2").on("click", function(){
+        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-2'>2</div>");
+        }
+      );
+
+      $(".box3").click(function(){
+        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box1-3'>3</div>");
+        }
+      );
+
+      $("#boxgrande").click(function(){
+        $("#boxgrande").replaceWith("<div id='boxgrande' class='col box4'>x</div>");
+        }
+      );
     </script>
 </body>
 </html>

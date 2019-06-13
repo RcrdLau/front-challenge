@@ -19,10 +19,7 @@
     color: white;
     text-align: center;
     line-height: 300px;
-    margin: 25px 0 25px 25px;
-}
-.oi {
-    background-color: yellow;
+    margin: 25px 25px 0 25px;
 }
 
 .box2 {
@@ -33,7 +30,7 @@
     color: white;
     text-align: center;
     line-height: 300px;
-    margin: 25px;
+    margin: 25px 25px 0 25px;
 }
 .box3 {
     background-color: #3F51B5;
@@ -43,10 +40,21 @@
     color: white;
     text-align: center;
     line-height: 300px;
-    margin: 25px 25px 0 0;
+    margin: 25px 25px 0 25px;
 }
 
 .box4 {
+    background-color: #494949;
+    border-radius: 25px;
+    height: 300px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    margin: 25px;
+}
+
+.box1-1{
     background-color: #E91E63;
     border-radius: 25px;
     height: 300px;
@@ -54,7 +62,29 @@
     color: white;
     text-align: center;
     line-height: 300px;
-    margin: 0 25px 25px 25px;
+    margin: 25px;
+
+}
+
+.box1-2{
+    background-color: #009688;
+    border-radius: 25px;
+    height: 300px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    margin: 25px;
+}
+.box1-3{
+    background-color: #3F51B5;
+    border-radius: 25px;
+    height: 300px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    margin: 25px;
 }
 
 
